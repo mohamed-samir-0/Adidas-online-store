@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>ADDIDAS</title>
+    <link rel= "stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/cc.css"/>
+</head>
+<body>
+    
+    <div class="header2">
+        <div class="container">
+                  <a href="index.html"> <div class="logo"> <img src="images/Adidas-White-Logo-PNG-Clipart-Background.png" alt="" height="85px"> <div class="overlay"></div></div></a>
+            <ul class="links" id="links">
+               <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+
+            </ul>
+             <ul id="user-info">
+                <li id="user"></li>
+                <li class="shopping_cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="baddge"></span>
+                    <div class="carts_products">
+                      <div></div>
+                     <a href="carttsproducts.html">View All Products</a>
+                 </div>
+                </li>
+                <li><a href="#" id="logout">Log out</a></li>
+
+            </ul>
+
+
+        </div>
+
+    </div><!--header2-->
+    <div class="login-page">
+        <div class="overlay2"></div>
+   <section class="section-form shadow">
+    <form action="">
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label style="color: white;" class="fw-bold" for="firstname">First Name</label>
+                <input type="text" class="form-control" id="firstname">
+            </div>
+            <div class="col-md-6 mb-3">
+                <label style="color: white;" class="fw-bold" for="lastname">Last Name</label>
+                <input type="text" class="form-control" id="lastname">
+            </div>
+        </div>
+        
+        <div class="form-group mb-3">
+            <label style="color: white;" class="fw-bold" for="email">Email</label>
+            <input type="text" class="form-control" id="email">
+        </div>
+
+        <div class="form-group mb-3">
+            <label style="color: white;" class="fw-bold" for="password">Password</label>
+            <input class="form-control" type="password" id="password">
+        </div>
+
+        <input type="submit" value="Sign Up" class="btn btn-light mt-2 fw-bold" id="sign_up">
+    </form>
+</section>
+
+
+    </div>
+
+
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/register.js"></script>
+    
+</body>
+</html>
